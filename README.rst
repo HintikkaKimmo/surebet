@@ -23,7 +23,7 @@ surebet
 surebet is Python sport betting library allowing you to easily convert betting odds, calculate returns, calculate arbitrage betting opportunities and more
 
 
-* Free software: GNU General Public License v3
+* Free software: MIT License
 * Documentation: https://surebet.readthedocs.io.
 
 
