@@ -15,9 +15,16 @@ surebet
 
 
 .. image:: https://pyup.io/repos/github/HintikkaKimmo/surebet/shield.svg
-     :target: https://pyup.io/repos/github/HintikkaKimmo/surebet/
-     :alt: Updates
+        :target: https://pyup.io/repos/github/HintikkaKimmo/surebet/
+        :alt: Updates
 
+.. image:: https://api.codeclimate.com/v1/badges/6150665607597692942e/maintainability
+        :target: https://codeclimate.com/github/HintikkaKimmo/surebet/maintainability
+        :alt: Maintainability
+
+.. image:: https://api.codeclimate.com/v1/badges/6150665607597692942e/test_coverage
+        :target: https://codeclimate.com/github/HintikkaKimmo/surebet/test_coverage
+        :alt: Test Coverage
 
 
 surebet is Python sport betting library allowing you to easily convert betting odds, calculate returns, calculate arbitrage betting opportunities and more
