@@ -11,7 +11,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=6.0', ]
+requirements = []
 
 setup_requirements = ['pytest-runner', ]
 
@@ -23,7 +23,7 @@ setup(
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+        'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.7',
@@ -39,7 +39,7 @@ setup(
         ],
     },
     install_requires=requirements,
-    license="GNU General Public License v3",
+    license="MIT License",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
     keywords='surebet',
