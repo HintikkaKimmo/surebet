@@ -17,13 +17,3 @@ def us_to_dec(odds=100):
         return Decimal((odds / 100) + 1).quantize(TWO)
     else:
         return Decimal((100 / odds) + 1).quantize(TWO)
-
-
-def main():
-    print(frac_to_dec(numerator=36, detonator=5))
-    print(per_to_dec(probability=68))
-    print(us_to_dec(odds=205))
-
-
-if __name__ == '__main__':
-    main()
