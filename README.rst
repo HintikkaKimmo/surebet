@@ -37,7 +37,14 @@ surebet is Python sport betting library allowing you to easily convert betting o
 Features
 --------
 
-* TODO
+* Normalize variety of betting odds to decimal odds available option below:
+
+    * US odds to decimal odds (us_to_dec)
+    * Probability odds to decimal odds (pro_to_dec)
+    * HongKong odds to decimal odds (hk_to_dec)
+    * Malaysian odds to decimal odds (mal_to_dec)
+    * Indonesian odds to decimal odds (ind_to_dec)
+
 
 Quickstart
 ----------
