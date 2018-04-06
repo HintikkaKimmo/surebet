@@ -83,6 +83,7 @@ Ready to contribute? Here's how to set up `surebet` for local development.
     $ python setup.py test or py.test
     $ tox
 
+   Note if test imports are causing errors in your env run: pip install -e . to work in editable mode.
    To get flake8 and tox, just pip install them into your virtualenv.
 
 6. Commit your changes and push your branch to GitHub::
@@ -102,7 +103,7 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
-3. The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy. Check
+3. The pull request should work for Python 3.4, 3.5 and 3.6, and for PyPy. Check
    https://travis-ci.org/HintikkaKimmo/surebet/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
