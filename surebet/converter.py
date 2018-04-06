@@ -32,6 +32,7 @@ def us_to_dec(odds: int = 100) -> Decimal:
     :return: dec_odds: Decimal
     """
     if odds >= 0:
-        return Decimal((odds / 100) + 1).quantize(TWO)
+        dec_odds = Decimal((odds / 100) + 1).quantize(TWO)
     else:
-        return Decimal((100 / odds) + 1).quantize(TWO)
+        dec_odds = Decimal((100 / odds) + 1).quantize(TWO)
+    return dec_odds
