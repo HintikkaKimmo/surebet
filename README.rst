@@ -39,11 +39,15 @@ Features
 
 * Normalize variety of betting odds to decimal odds available option below:
 
-    1. US odds to decimal odds (us_to_dec)
-    2. Probability odds to decimal odds (pro_to_dec)
-    3. HongKong odds to decimal odds (hk_to_dec)
-    4. Malaysian odds to decimal odds (mal_to_dec)
-    5. Indonesian odds to decimal odds (ind_to_dec)
+1. US odds to decimal odds (us_to_dec)
+2. Probability odds to decimal odds (pro_to_dec)
+3. HongKong odds to decimal odds (hk_to_dec)
+4. Malaysian odds to decimal odds (mal_to_dec)
+5. Indonesian odds to decimal odds (ind_to_dec)
+
+* Identify there is arbitrage bet opportunity
+
+* TODO
 
 Quickstart
 ----------
